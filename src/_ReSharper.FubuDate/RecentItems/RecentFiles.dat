@@ -1,10 +1,50 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/f:Web.config" caret="0" fromTop="0" />
-    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/f:packages.config" caret="0" fromTop="0" />
-    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/f:FubuDateRegistry.cs" caret="0" fromTop="0" />
+    <File id="25DB5185-2378-47A9-9E3F-DA9FAE3B424D/f:NuGet.Config/s:..?.nuget?NuGet.Config" caret="0" fromTop="0" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/d:Policies/f:EndpointUrlPolicy.cs" caret="344" fromTop="4" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Extensions/f:FubuExtensions.cs" caret="622" fromTop="19" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="933" fromTop="27" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:IndexEndpoint.cs" caret="165" fromTop="6" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:HomeIndexRequest.cs" caret="33" fromTop="0" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/f:Global.asax.cs" caret="995" fromTop="30" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:bindings.xml" caret="593" fromTop="0" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/f:EndpointMarker.cs" caret="88" fromTop="5" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:Application.spark" caret="1370" fromTop="31" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:HomeIndexViewModel.cs" caret="73" fromTop="2" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:Index.spark" caret="121" fromTop="5" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/f:Web.config" caret="1998" fromTop="39" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:_global.spark" caret="106" fromTop="2" />
   </RecentFiles>
   <RecentEdits>
-    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/f:FubuDateRegistry.cs" caret="0" fromTop="0" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:IndexEndpoint.cs" caret="217" fromTop="14" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2399" fromTop="29" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:IndexEndpoint.cs" caret="218" fromTop="10" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:HomeIndexRequest.cs" caret="103" fromTop="0" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:Application.spark" caret="2040" fromTop="38" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:Application.spark" caret="1838" fromTop="28" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2399" fromTop="33" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2399" fromTop="28" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2399" fromTop="38" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2399" fromTop="57" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2399" fromTop="57" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Extensions/f:FubuExtensions.cs" caret="1762" fromTop="29" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2399" fromTop="74" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/d:Policies/f:EndpointUrlPolicy.cs" caret="77" fromTop="3" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2376" fromTop="23" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/d:Policies/f:EndpointUrlPolicy.cs" caret="489" fromTop="16" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2376" fromTop="39" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:HomeIndexRequest.cs" caret="33" fromTop="0" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:HomeIndexViewModel.cs" caret="29" fromTop="0" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2376" fromTop="17" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="2376" fromTop="57" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="1022" fromTop="15" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Configuration/f:FubuDateRegistry.cs" caret="1200" fromTop="32" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:bindings.xml" caret="593" fromTop="13" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:bindings.xml" caret="593" fromTop="0" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/f:Web.config" caret="8715" fromTop="56" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:Application.spark" caret="1370" fromTop="31" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Endpoints/d:Home/f:Index.spark" caret="89" fromTop="1" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:_global.spark" caret="106" fromTop="8" />
+    <File id="88940D52-2273-4F4A-80FB-212FF335CD13/d:Shared/f:_global.spark" caret="69" fromTop="1" />
   </RecentEdits>
 </RecentFiles>

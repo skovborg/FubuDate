@@ -1,5 +1,6 @@
 using System.Web;
 using Bottles;
+using FubuDate.Configuration;
 using FubuMVC.Core;
 using StructureMap;
 using FubuMVC.StructureMap;

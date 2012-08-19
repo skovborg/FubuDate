@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<bindings>
+  <element name="Stylesheet">this.CSS('@href')</element>
+  <element name="Asset">#this.Asset('@src');</element>
+  <element name="Assets">this.WriteAssetTags()</element>
+  <element name="Image">this.ImageFor('@src')</element>
+  <element name="Form">
+    <start>this.FormFor&lt;@model&gt;().Attr("class", "validate")</start>
+    <end>this.EndForm()</end>
+  </element>
+  <element name="Edit">this.EditField(x => x.@field)</element>
+  <element name="Submit">this.Submit('@title')</element>
+  <element name="LinkTo">this.Link&lt;@model&gt;()</element>
+
+</bindings>

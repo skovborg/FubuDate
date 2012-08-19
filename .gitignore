@@ -1,6 +1,29 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
-
-# mstest test results
-TestResults
+*resharper.user
+*.ReSharper
+[Dd]ebug/
+[Rr]elease/
+build/
+[Bb]in/
+[Oo]bj/
+[Hh]elp/
+*.suo
+*.sln.cache
+_ReSharper.*/
+*.user
+*/server/Data/Data/
+*/server/Data/IndexDefinitions/
+*/server/Data/Index/
+*/server/Data/logs/
+*/server/Data/system/
+*/server/Data/temp/
+*/server/Logs/
+*/server/Logs/*
+*/server/Data/
+*/server/Data/*
+*.InstallLog
+/Src/packages/*/server/Data/
+/Src/packages/*/server/Logs/
+.sass-cache/
+packages/
+*.userprefs
+*.pidb

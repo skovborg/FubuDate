@@ -1,0 +1,6 @@
+﻿<use master="Application" />
+<viewdata model="FubuDate.Endpoints.Home.HomeIndexViewModel" />
+<h2>Home</h2>
+Hello
+
+Hi
