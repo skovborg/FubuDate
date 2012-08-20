@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Content\scripts\modernizr-2.5.3.js" />
     <Content Include="Shared\bindings.xml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -116,7 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\images\" />
-    <Folder Include="Content\scripts\" />
+    <Folder Include="Content\sass\" />
     <Folder Include="Content\styles\" />
   </ItemGroup>
   <ItemGroup>
@@ -124,7 +125,9 @@
     <Content Include="fubu-content\fubumvc-diagnostics.zip" />
     <None Include="Endpoints\Home\Index.spark" />
     <None Include="Shared\Application.spark" />
-    <None Include="Shared\_global.spark" />
+    <None Include="Shared\_global.spark">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

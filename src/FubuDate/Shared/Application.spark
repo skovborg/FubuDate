@@ -14,7 +14,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-    #this.Asset("jquery-set");
+    <!--#this.Asset("jquery-set");-->
     <!--<Asset src="custom-scripts" />
     <Asset src="plugins" />
     <Asset src="jquery-set" />-->
@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="~/Content/Styles/screen.css?v=2">
 	<link rel="stylesheet" href="~/Content/Styles/jquery-ui-1.8.16.custom.css?v=2">
     <link rel="stylesheet" media="handheld" href="~/Content/Styles/handheld.css?v=2">
-	<script src="~/Content/Scripts/libs/modernizr-2.5.3.js" type="text/javascript"></script>
+	<script src="~/Content/Scripts/modernizr-2.5.3.js" type="text/javascript"></script>
     <!--<title><Title /></title>-->
 </head>
 <body>
@@ -49,7 +49,7 @@
 	</div>
     <!--${ this.WriteCssTags() }
     ${ this.WriteScriptTags() }-->
-	<Assets />
+	<!--<Assets />-->
     <!--[if lt IE 7 ]>
 	<script src="~/Content/Scripts/libs/dd_belatedpng.js"></script>
 	<script> DD_belatedPNG.fix('img, .png_bg');</script>

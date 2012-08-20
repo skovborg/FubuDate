@@ -8,6 +8,7 @@ build/
 [Hh]elp/
 *.suo
 *.sln.cache
+src/_ReSharper.*/
 _ReSharper.*/
 *.user
 */server/Data/Data/
