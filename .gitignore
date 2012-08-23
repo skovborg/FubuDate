@@ -25,6 +25,7 @@ _ReSharper.*/
 /Src/packages/*/server/Data/
 /Src/packages/*/server/Logs/
 .sass-cache/
-packages/
+src/packages/
 *.userprefs
 *.pidb
+src/FubuDate/fubu-content/*
