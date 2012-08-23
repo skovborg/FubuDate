@@ -70,9 +70,8 @@
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\FubuMVC.0.9.5.926\lib\Microsoft.Web.Infrastructure.dll</HintPath>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Spark, Version=1.7.0.0, Culture=neutral, PublicKeyToken=7f8549eed921a12c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -87,7 +86,7 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="WebActivator">
-      <HintPath>..\packages\WebActivator.1.1.0.0\lib\NETFramework40\WebActivator.dll</HintPath>
+      <HintPath>..\packages\WebActivator.1.5.1\lib\net40\WebActivator.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -119,10 +118,10 @@
     <Folder Include="Content\images\" />
     <Folder Include="Content\sass\" />
     <Folder Include="Content\styles\" />
+    <Folder Include="fubu-content\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="fubu-content\fubumvc-diagnostics.zip" />
     <None Include="Endpoints\Home\Index.spark" />
     <None Include="Shared\Application.spark" />
     <None Include="Shared\_global.spark">

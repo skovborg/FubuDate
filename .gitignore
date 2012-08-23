@@ -28,4 +28,4 @@ _ReSharper.*/
 src/packages/
 *.userprefs
 *.pidb
-src/FubuDate/fubu-content/*
+src/FubuDate/fubu-content/*/*
