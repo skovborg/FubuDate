@@ -116,13 +116,17 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\HandlerModelDescription.cs" />
     <Compile Include="Configuration\Policies\EndpointUrlPolicy.cs" />
     <Compile Include="Configuration\WebRegistry.cs" />
     <Compile Include="Endpoints\EndpointMarker.cs" />
     <Compile Include="Endpoints\Home\HomeIndexRequest.cs" />
     <Compile Include="Endpoints\Home\HomeIndexViewModel.cs" />
     <Compile Include="Endpoints\Home\IndexEndpoint.cs" />
+    <Compile Include="Endpoints\Users\IndexEndpoint.cs" />
+    <Compile Include="Endpoints\User\SignupEndpoint.cs" />
     <Compile Include="Extensions\FubuExtensions.cs" />
+    <Compile Include="Extensions\FubuPageExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -138,6 +142,8 @@
     <Content Include="packages.config" />
     <None Include="Endpoints\Home\Index.spark" />
     <Content Include="fubu-content\fubumvc-diagnostics.zip" />
+    <None Include="Endpoints\Users\Index.spark" />
+    <None Include="Endpoints\User\Signup.spark" />
     <None Include="Shared\Application.spark" />
     <None Include="Shared\_global.spark">
       <SubType>Designer</SubType>

@@ -1,4 +1,5 @@
-﻿using Raven.Client;
+﻿using FubuValidation.StructureMap;
+using Raven.Client;
 using Raven.Client.Document;
 using StructureMap.Configuration.DSL;
 
@@ -32,6 +33,7 @@ namespace FubuDate.Configuration
                     var store = x.GetInstance<IDocumentStore>();
                     return store.OpenSession();
                 });
+            this.FubuValidation();
         }
     }
 }

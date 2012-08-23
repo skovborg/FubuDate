@@ -28,7 +28,18 @@ namespace FubuDate.Configuration
             this.ApplyEndpointConventions();
             //Import<AssetsConfiguration>();
 
-            
+            this.Validation(validation =>
+            {
+                validation
+                    .Actions
+                    .Include(y => y.HasInput && y.InputType().Name.Contains("Input"));
+                validation
+                    .Failures
+                    .If(t => t.InputType() != null && t.InputType().Name.Contains("Input"))
+                    .RedirectBy<HandlerModelDescriptor>();
+
+            });
+
             Views
                 .TryToAttachWithDefaultConventions()
                 .RegisterActionLessViews(x => x.ViewModelType == typeof(Notification));
