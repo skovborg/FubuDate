@@ -9,14 +9,13 @@
         <WebProjectProperties>
           <StartPageUrl>
           </StartPageUrl>
-          <StartAction>Program</StartAction>
+          <StartAction>URL</StartAction>
           <AspNetDebugging>True</AspNetDebugging>
           <SilverlightDebugging>False</SilverlightDebugging>
           <NativeDebugging>False</NativeDebugging>
           <SQLDebugging>False</SQLDebugging>
           <ExternalProgram>C:\Program Files (x86)\Mozilla Firefox\firefox.exe</ExternalProgram>
-          <StartExternalURL>
-          </StartExternalURL>
+          <StartExternalURL>http://localhost:34343</StartExternalURL>
           <StartCmdLineArguments>http://localhost:34343</StartCmdLineArguments>
           <StartWorkingDirectory>
           </StartWorkingDirectory>

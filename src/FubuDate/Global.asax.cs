@@ -12,8 +12,8 @@ namespace FubuDate
         protected void Application_Start()
         {
             FubuApplication
-                .For<FubuDateRegistry>()
-                .StructureMap(() => new Container(SetupContainer))
+                .For<ConfigureFubuMVC>()
+                .StructureMap(() => new Container(new WebRegistry()))
                 .Bootstrap();
 
             // If there is an error during bootstrapping, it will not automatically be considered
@@ -21,10 +21,6 @@ namespace FubuDate
             // troubleshooting package loading. Normally, however, you want a YSOD if there is
             // a bootstrapping failure or a package-loading failure. This next line ensures that.
             PackageRegistry.AssertNoFailures(); 
-        }
-
-        private static void SetupContainer(ConfigurationExpression x)
-        {
         }
     }
 }
