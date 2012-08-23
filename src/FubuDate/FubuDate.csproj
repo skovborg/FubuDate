@@ -118,11 +118,11 @@
     <Folder Include="Content\images\" />
     <Folder Include="Content\sass\" />
     <Folder Include="Content\styles\" />
-    <Folder Include="fubu-content\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Endpoints\Home\Index.spark" />
+    <Content Include="fubu-content\fubumvc-diagnostics.zip" />
     <None Include="Shared\Application.spark" />
     <None Include="Shared\_global.spark">
       <SubType>Designer</SubType>
