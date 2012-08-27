@@ -1,5 +1,6 @@
-﻿using FubuDate.Endpoints.Users;
-using FubuLocalization;
+﻿using System;
+using System.Resources;
+using FubuDate.Endpoints.Users;
 using FubuMVC.Core.Continuations;
 using FubuValidation;
 using Raven.Client;
@@ -22,7 +23,7 @@ namespace FubuDate.Endpoints.User
 
         public FubuContinuation Post(SignupInput input)
         {
-            //_session.Store(new Domain.User() { Email = input.Email, Password = input.Password });
+            _session.Store(new Domain.User() { Username = input.Email, Password = input.Password, LastActive = DateTime.Now });
             return FubuContinuation.RedirectTo(new UsersRequest());
         }
     }
@@ -31,7 +32,7 @@ namespace FubuDate.Endpoints.User
 
     public class SignupViewModel : SignupInput
     {
-        
+
     }
 
     public class SignupInput

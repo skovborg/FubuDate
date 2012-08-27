@@ -1,4 +1,6 @@
 using FubuDate.Endpoints.Home;
+using FubuDate.Localization;
+using FubuLocalization.Basic;
 using FubuMVC.Core;
 using FubuMVC.Spark;
 using FubuMVC.Validation;

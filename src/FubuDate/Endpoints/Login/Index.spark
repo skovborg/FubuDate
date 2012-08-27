@@ -1,0 +1,8 @@
+﻿<viewdata model="FubuDate.Endpoints.Login.LoginIndexViewModel" />
+<h2>Login</h2>
+
+<Form model="LoginInput">
+  <Edit field="Username"/>
+  <Edit field="Password" />
+  <Submit title="Login" />
+</Form>
