@@ -116,6 +116,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\RavenSessionBehavior.cs" />
+    <Compile Include="Configuration\Conventions\RavenSessionConvention.cs" />
     <Compile Include="Configuration\HandlerModelDescription.cs" />
     <Compile Include="Configuration\Policies\EndpointUrlPolicy.cs" />
     <Compile Include="Configuration\WebRegistry.cs" />
@@ -160,7 +162,9 @@
     <None Include="Endpoints\Message\Index.spark" />
     <None Include="Endpoints\Users\Index.spark" />
     <None Include="Endpoints\User\Signup.spark" />
-    <None Include="Shared\Application.spark" />
+    <None Include="Shared\Application.spark">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Shared\_global.spark">
       <SubType>Designer</SubType>
     </None>

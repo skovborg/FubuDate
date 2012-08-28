@@ -6,6 +6,7 @@ build/
 [Bb]in/
 [Oo]bj/
 [Hh]elp/
+src/*.suo
 *.suo
 *.sln.cache
 src/_ReSharper.*/
