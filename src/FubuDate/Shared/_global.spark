@@ -1,3 +1,6 @@
 ﻿<use namespace="FubuDate.Endpoints.Home" />
+<use namespace="FubuDate.Endpoints.User" />
+<use namespace="FubuDate.Endpoints.Login" />
+<use namespace="FubuDate.Localization" />
 <use namespace="FubuDate" />
 <use namespace="System.Linq" />

@@ -29,16 +29,15 @@
 <body>
 	<div id="container">
         <header>
-            <h1 id="title">${this.LinkTo<HomeIndexRequest>().Text("Fubu Date")}</h1>
-            <!--<nav>
+            <h1 id="title">${this.LinkTo<HomeIndexRequest>().Text("FubuDate")}</h1>
+
+            <nav>
                 <ul>
-                    --><!--<li>${this.LinkTo<HomeIndexRequest>().Text(MenuTokens.Home)}</li>--><!--
                     <li><LinkTo model="SignupRequest" /></li>
-                    <li><LinkTo model="LoginIndexRequest"   /></li>
-                    <li><LinkTo model="PricingIndexRequest" /></li>
-                    <li><LinkTo model="AboutIndexRequest" /></li>
+                    <li><LinkTo model="LoginIndexRequest" /></li>
+                    
                 </ul>
-            </nav>-->
+            </nav>
 		</header>
         <div id="main" role="main">
             <use content="view" />
@@ -54,13 +53,5 @@
 	<script src="~/Content/Scripts/libs/dd_belatedpng.js"></script>
 	<script> DD_belatedPNG.fix('img, .png_bg');</script>
 	<![endif]-->
-	<!--<script type="text/javascript">
-	    var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
-	    (function (d, t) {
-	        var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.async = 1;
-	        g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
-	        s.parentNode.insertBefore(g, s)
-	    } (document, 'script'));
-	</script>-->
 </body>
 </html>
