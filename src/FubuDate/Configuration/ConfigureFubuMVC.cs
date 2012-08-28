@@ -1,3 +1,4 @@
+using FubuDate.Configuration.Conventions;
 using FubuDate.Endpoints.Home;
 using FubuDate.Localization;
 using FubuLocalization.Basic;
@@ -29,7 +30,7 @@ namespace FubuDate.Configuration
             this.UseSpark();
             this.ApplyEndpointConventions();
             //Import<AssetsConfiguration>();
-
+            ApplyConvention<RavenSessionConvention>();
             this.Validation(validation =>
             {
                 validation
