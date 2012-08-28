@@ -2,8 +2,7 @@
 <h2>Signup</h2>
 
 <Form model="SignupInput">
-    <Edit field="Email" />
+    <Edit field="Username" />
     <Edit field="Password" />
-    <Edit field="RepeatPassword" />
     <Submit title="Signup"/>
 </Form>
