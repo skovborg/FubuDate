@@ -1,3 +1,6 @@
 ﻿<viewdata model="FubuDate.Endpoints.Users.UsersViewModel" />
 <h2>Users</h2>
 
+<ul>
+  <li each="var user in Model.Users">${user.Username}</li>
+</ul>
