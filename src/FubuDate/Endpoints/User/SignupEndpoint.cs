@@ -23,7 +23,7 @@ namespace FubuDate.Endpoints.User
 
         public FubuContinuation Post(SignupInput input)
         {
-            _session.Store(new Domain.User() { Username = input.Email, Password = input.Password, LastActive = DateTime.Now });
+            _session.Store(new Domain.User() { Username = input.Username, Password = input.Password, LastActive = DateTime.Now });
             return FubuContinuation.RedirectTo(new UsersRequest());
         }
     }
@@ -39,9 +39,8 @@ namespace FubuDate.Endpoints.User
     {
 
         [Required]
-        public string Email { get; set; }
+        public string Username { get; set; }
         [Required]
         public string Password { get; set; }
-        public string RepeatPassword { get; set; }
     }
 }
