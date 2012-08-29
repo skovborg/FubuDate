@@ -130,7 +130,7 @@
     <Compile Include="Endpoints\Home\IndexEndpoint.cs" />
     <Compile Include="Endpoints\Login\IndexEndpoint.cs" />
     <Compile Include="Endpoints\Message\IndexEndpoint.cs" />
-    <Compile Include="Endpoints\Message\MessageIndexRequest.cs" />
+    <Compile Include="Endpoints\Message\NewMessageInput.cs" />
     <Compile Include="Endpoints\Message\MessageIndexViewModel.cs" />
     <Compile Include="Endpoints\Users\IndexEndpoint.cs" />
     <Compile Include="Endpoints\User\SignupEndpoint.cs" />

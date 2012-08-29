@@ -1,5 +1,7 @@
 ﻿
 using System;
+using System.Linq;
+using FubuMVC.Core.Continuations;
 using Raven.Client;
 
 namespace FubuDate.Endpoints.Message
@@ -15,22 +17,28 @@ namespace FubuDate.Endpoints.Message
 
         public MessageIndexViewModel Get(MessageIndexRequest request)
         {
-            return new MessageIndexViewModel{From = request.From};
+            var user = _session.Query<Domain.User>().First(x => x.Username == request.ToUser);
+            
+            return new MessageIndexViewModel{ToUser = user.Username};
+            
         }
 
-        public MessageIndexViewModel Post(MessageIndexRequest request)
+        public FubuContinuation Post(NewMessageInput request)
         {
+            var to = _session.Query<Domain.User>().First();
+            var from = _session.Query<Domain.User>().First(x => x.Username == request.ToUser);
+            
             var message = new Domain.Message
                               {
                                   Body = request.Message,
-                                  To = request.To,
-                                  From = request.From,
+                                  ToId = to.Id,
+                                  FromId = from.Id,
                                   Sent = DateTime.Now
                               };
 
             _session.Store(message);
 
-            return new MessageIndexViewModel {IsMessageSent = true, From = request.From};
+            return FubuContinuation.RedirectTo(new NewMessageInput());
         }
     }
 }

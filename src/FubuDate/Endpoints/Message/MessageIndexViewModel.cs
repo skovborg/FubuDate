@@ -1,8 +1,9 @@
+using System.Collections.Generic;
+
 namespace FubuDate.Endpoints.Message
 {
-    public class MessageIndexViewModel
+    public class MessageIndexViewModel : NewMessageInput
     {
         public bool IsMessageSent { get; set; }
-        public string From { get; set; }
     }
 }

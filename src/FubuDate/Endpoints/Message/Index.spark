@@ -12,8 +12,10 @@
 <p>
   <form action="/Message" method="post">
     <p>
-      To: <input type="text" name="To" value="" />
       Message:<input type="text" name="Message" value="" />
+    </p>
+    <p>
+      <input type="hidden" name="To" value="@" />
     </p>
     <p>
       <input type="submit" value="Submit" />
